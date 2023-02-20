@@ -1,38 +1,235 @@
-.App {
-  text-align: center;
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-left: 30px;
+  border: 1px solid white;
+  border-radius: 50px;
+  margin-top: 3px;
+}
+.logo-off {
+  font-size: 20.2spx;
+  color: blue;
+}
+.logo-off span {
+  font-size: 10px;
+  font-style: italic;
+}
+.home {
+  height: 100vh;
+  width: 100%;
+}
+.nav-li {
+  color: black;
+  margin-top: 15px;
+  margin-right: 50px;
+}
+.nav-li:active {
+  color: #095bff;
+}
+.nav-li:focus {
+  color: #095bff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-li:hover {
+  color: #095bff;
+}
+.nav-li2 {
+  color: black;
+  margin-top: 15px;
+}
+.nav-li2:active {
+  color: #095bff;
+}
+.nav-li2:focus {
+  color: #095bff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-li2:hover {
+  color: #095bff;
+}
+.dw:hover {
+  filter: brightness(0.8);
+}
+.bg {
+  width: 100%;
+  max-width: 100%;
+  height: 763.5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.div-dp {
+  top: 200px;
+  right: 0;
+  max-width: 300px;
+  max-height: 300px;
+}
+.dp {
+  height: auto;
+  width: 100%;
+}
+.names {
+  top: 300px;
+  left: 30px;
+  color: black;
+  letter-spacing: 5px;
+}
+.names h2 {
+  font-weight: bold;
+}
+.names h1 {
+  font-weight: bolder;
+  margin-left: 15px;
+  line-height: 50px;
+}
+.names h5 {
+  font-weight: bolder;
+  margin-left: 30px;
+  color: #4a4747;
+}
+.names2 {
   color: white;
+  top: 500px;
+  left: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.names2 h4 a {
+  background-color: #095bff;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 50%);
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  outline: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.names2 h4:hover {
+  filter: brightness(0.8);
+}
+.g-icons {
+  top: 600px;
+  right: 30px;
+  font-size: 30px;
+}
+.icons {
+  color: black;
+  margin-left: 20px;
+}
+.names-icon {
+  font-size: 16px;
+  color: black;
+}
+@media (max-width: 768px) {
+  .bg {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  .div-dp {
+    top: 50px;
+    right: 0;
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .g-icons {
+    top: 250px;
+    right: 15px;
+    font-size: 20px;
+  }
+  .icons {
+    color: black;
+    margin-left: 15px;
+  }
+  .names {
+    top: 100px;
+    left: 30px;
+    color: black;
+    letter-spacing: 2px;
+  }
+  .names2 {
+    color: white;
+    top: 220px;
+    left: 30px;
+  }
+  .names h2 {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .names h1 {
+    font-weight: bolder;
+    margin-left: 15px;
+    line-height: 40px;
+    font-size: 25px;
+  }
+  .names h5 {
+    font-weight: bolder;
+    margin-left: 30px;
+    color: #4a4747;
+    font-size: 11px;
+  }
+  .names2 h4 a {
+    padding: 2px;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    /* height: 30px; */
+  }
+  .names-icon {
+    font-size: 13px;
+    color: black;
+  }
+}
+
+@media (max-width: 500px) {
+  .div-dp {
+    top: 50px;
+    right: 0;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .g-icons {
+    top: 160px;
+    right: 15px;
+    font-size: 10px;
+  }
+  .icons {
+    color: black;
+    margin-left: 8px;
+  }
+  .names {
+    top: 65px;
+    left: 10px;
+    color: black;
+    letter-spacing: 2px;
+  }
+  .names h2 {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .names h1 {
+    font-weight: bolder;
+    margin-left: 15px;
+    line-height: 20px;
+    font-size: 22px;
+  }
+  .names h5 {
+    font-weight: bolder;
+    margin-left: 30px;
+    color: #4a4747;
+    font-size: 10px;
+  }
+  .names2 {
+    color: white;
+    top: 150px;
+    left: 10px;
+  }
+  .names2 h4 a {
+    padding: 2px;
+    font-weight: 300;
+    font-size: 11px;
+    color: white;
+    /* height: 30px; */
+  }
+  .names-icon {
+    font-size: 9px;
+    color: black;
   }
 }
