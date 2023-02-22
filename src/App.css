@@ -117,6 +117,16 @@
   font-size: 16px;
   color: black;
 }
+
+/* about me */
+.about-me {
+  max-width: 600px;
+}
+.learning img {
+  max-width: 90px;
+  max-height: 120px;
+}
+
 @media (max-width: 768px) {
   .bg {
     width: 100%;
@@ -176,6 +186,10 @@
     font-size: 13px;
     color: black;
   }
+  .learning img {
+    max-width: 50px;
+    max-height: 80px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -218,8 +232,8 @@
   }
   .names2 {
     color: white;
-    top: 150px;
-    left: 10px;
+    top: 140px;
+    left: 45px;
   }
   .names2 h4 a {
     padding: 2px;
@@ -228,8 +242,18 @@
     color: white;
     /* height: 30px; */
   }
+  .names2 h4:first-child {
+    display: none;
+  }
+  /* .names2 h4:last-child {
+    
+  } */
   .names-icon {
     font-size: 9px;
     color: black;
+  }
+  .learning img {
+    max-width: 30px;
+    max-height: 60px;
   }
 }

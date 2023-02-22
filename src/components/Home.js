@@ -12,6 +12,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { BsBriefcase } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -35,18 +36,18 @@ const Home = () => {
       </div>
       <div className=" position-absolute d-flex names2">
         <h4 className="me-3">
-          <a href="/about">
+          <Link to="/about">
             {" "}
             About me
             <FaRegUser className="ms-2 names-icon" />
-          </a>
+          </Link>
         </h4>
         <h4>
-          <a href="/projects">
+          <Link to="/projects">
             {" "}
             Projects
             <BsBriefcase className="ms-2 names-icon" />
-          </a>
+          </Link>
         </h4>
       </div>
       <div className="position-absolute g-icons">
@@ -66,6 +67,7 @@ const Home = () => {
           <FaLinkedin className=" pointer" />
         </a>
       </div>
+      <hr></hr>
       <About />
     </div>
   );
