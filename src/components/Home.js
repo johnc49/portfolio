@@ -3,6 +3,9 @@ import React from "react";
 import dp from "../assets/dp2.svg";
 import bg7 from "../assets/bg7.png";
 import About from "./About";
+import WhatsappIcon from "./WhatsappIcon";
+import Projects from "./Projects";
+import Contact from "./Contact";
 import {
   FaFacebook,
   FaGithub,
@@ -13,6 +16,7 @@ import {
 } from "react-icons/fa";
 import { BsBriefcase } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -51,24 +55,56 @@ const Home = () => {
         </h4>
       </div>
       <div className="position-absolute g-icons">
-        <a href="/" className="icons">
+        <a
+          href="https://www.facebook.com/john.chisowa.3?mibextid=ZbWKwL"
+          target="_blank"
+          rel="noreferrer"
+          className="icons"
+        >
           <FaFacebook className=" pointer" />
         </a>
-        <a href="/" className="icons">
+        <a
+          href="https://www.instagram.com/john_chisowa/"
+          target="_blank"
+          rel="noreferrer"
+          className="icons"
+        >
           <FaInstagram className=" pointer" />
         </a>
-        <a href="/" className="icons">
+        <a
+          href="https://twitter.com/JchisowaJohn"
+          target="_blank"
+          rel="noreferrer"
+          className="icons"
+        >
           <FaTwitter className=" pointer" />
         </a>
-        <a href="/" className="icons">
+        <a
+          href="https://github.com/johnc49"
+          target="_blank"
+          rel="noreferrer"
+          className="icons"
+        >
           <FaGithub className=" pointer" />
         </a>
-        <a href="/" className="icons">
+        <a
+          href="https://www.linkedin.com/in/john-chisowa-922a32111/"
+          target="_blank"
+          rel="noreferrer"
+          className="icons"
+        >
           <FaLinkedin className=" pointer" />
         </a>
       </div>
+      <WhatsappIcon />
       <hr></hr>
       <About />
+      <hr />
+      <Projects />
+      <hr></hr>
+      <Contact />
+      <hr></hr>
+      <Footer />
     </div>
   );
 };
