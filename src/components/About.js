@@ -33,7 +33,7 @@ const About = () => {
         <p>
           I'm a frontend web developer with experience in HTML, CSS and
           JavaScript/Typescript. From responsive to cross-browser compatibility
-          using bootstrap, tailwind or plain csss. I always strive to deliver
+          using bootstrap, tailwind or plain css. I always strive to deliver
           high-quality web solutions using frontend frameworks such as React,
           Vue and Angular. However, I also understand the importance of having a
           solid backend infrastructure to support these applications. That's why

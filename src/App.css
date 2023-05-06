@@ -134,6 +134,11 @@
 .full-card p:first-child {
   margin: 20px;
 }
+.outer-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .project-card {
   background: #31313f !important;
   margin-left: 20px;
@@ -277,9 +282,15 @@
     color: white;
     max-width: 320px;
     height: 420px !important;
+    margin-top: 10px;
   }
   .project-card p {
     font-size: 13px;
+  }
+  .outer-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .card-links a {
     font-size: 15px;

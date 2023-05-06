@@ -18,7 +18,7 @@ const Contact = () => {
         <p>
           As a Frontend web developer, I create beautiful and user-friendly
           websites. Whether you already have your design in figma or XD or you
-          need a new website designwhich needs to be created in React, Vue or
+          need a new website design which needs to be created in React, Vue or
           Angular.I'm here to help you.<br></br>
           Please feel free to contact me. I look forward to hearing from you!
         </p>
