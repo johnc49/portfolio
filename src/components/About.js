@@ -26,11 +26,11 @@ const About = () => {
       }}
       className="d-flex flex-column"
     >
-      <div className="text-center about-me align-self-center">
-        <h1 className="">
+      <div className=" about-me ">
+        <h1 className="text-center align-self-center">
           <u>About me</u>
         </h1>
-        <p>
+        <p className="ps-2">
           As a skilled Frontend Web Developer, I bring extensive experience in
           React, Vue, and Angular frameworks, along with a strong foundation in
           HTML, CSS, and JavaScript. I have successfully developed and deployed

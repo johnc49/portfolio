@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div
-      className="contact-me text-center d-flex flex-column"
+      className="contact-me d-flex flex-column"
       style={{
         backgroundColor: "#0D0D29",
         color: "white",
@@ -11,14 +11,14 @@ const Contact = () => {
         paddingBottom: "10px",
       }}
     >
-      <h1 className="text-center">
+      <h1 className="text-center align-self-center">
         <u>Contact me</u>
       </h1>
-      <div className="contact-p align-self-center">
+      <div className="contact-p ">
         <p>
           Thank you for visiting my portfolio! I'm thrilled to connect and
           discuss potential opportunities or collaborations. Please feel free to
-          reach out to me through any of the following channels::<br></br>
+          reach out to me through any of the following channels:<br></br>
         </p>
       </div>
       <div>
@@ -66,7 +66,7 @@ const Contact = () => {
           </span>
         </h5>
       </div>
-      <div className="contact-p align-self-center">
+      <div className="contact-p ">
         <p>
           I'm always open to engaging in meaningful conversations about frontend
           web development, innovative projects, or any other related topics.
