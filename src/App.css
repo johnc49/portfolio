@@ -22,6 +22,7 @@
   color: black;
   margin-top: 15px;
   margin-right: 50px;
+  text-decoration: none;
 }
 .nav-li:active {
   color: #095bff;
@@ -36,6 +37,7 @@
 .nav-li2 {
   color: black;
   margin-top: 15px;
+  text-decoration: none;
 }
 .nav-li2:active {
   color: #095bff;
@@ -100,6 +102,7 @@
   font-size: 20px;
   color: white;
   outline: none;
+  text-decoration: none;
 }
 .names2 h4:hover {
   filter: brightness(0.8);
@@ -124,6 +127,13 @@
 }
 .about-me p {
   line-height: 30px;
+}
+.learning {
+  max-width: 500px;
+}
+.using img {
+  max-width: 90px;
+  max-height: 120px;
 }
 .learning img {
   max-width: 90px;
@@ -177,6 +187,12 @@
   font-size: 18px;
   font-style: italic;
   font-weight: 300;
+}
+.contact-tag {
+  color: #095bff;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
 }
 /* footer */
 .footer {
@@ -248,6 +264,13 @@
   .names-icon {
     font-size: 13px;
     color: black;
+  }
+  .learning {
+    max-width: 300px;
+  }
+  .using img {
+    max-width: 50px;
+    max-height: 80px;
   }
   .learning img {
     max-width: 50px;
@@ -385,6 +408,13 @@
   .names-icon {
     font-size: 9px;
     color: black;
+  }
+  .learning {
+    max-width: 200px;
+  }
+  .using img {
+    max-width: 30px;
+    max-height: 50px;
   }
   .learning img {
     max-width: 30px;

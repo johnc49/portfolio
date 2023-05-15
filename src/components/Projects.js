@@ -1,7 +1,7 @@
 import React from "react";
 
 import els from "../assets/els.png";
-import admin from "../assets/admin-dash.png";
+// import admin from "../assets/admin-dash.png";
 import landing from "../assets/q-landing.png";
 import dash from "../assets/dash-board.png";
 
@@ -58,7 +58,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="card project-card d-flex flex-column">
+          {/* <div className="card project-card d-flex flex-column">
             <img
               src={admin}
               className="card-img-top align-self-center mt-1"
@@ -91,7 +91,7 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="card project-card d-flex flex-column">
             <img
