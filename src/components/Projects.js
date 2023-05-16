@@ -100,12 +100,12 @@ const Projects = () => {
               alt=""
             />
             <div className="card-body">
-              <h5 className="card-title text-primary">Landing Page</h5>
+              <h5 className="card-title text-primary">Loan Website</h5>
               <p className="card-text">
-                A landing page website for a company created using angular 15
-                which offers loans for SME and civil servants. Users can
-                navigate through pages and see the offers of the comapny and
-                apply for a loan
+                A loan website for a company created using Angular. A company
+                offers loans for SME and civil servants. Users can navigate
+                through pages and see the offers of the company and apply for a
+                loan
               </p>
               <div className="card-links d-flex flex-row justify-content-between">
                 <a
@@ -135,9 +135,9 @@ const Projects = () => {
             <div className="card-body">
               <h5 className="card-title text-primary">User Dash Board</h5>
               <p className="card-text">
-                A User dash board for a loan website created using angular 15. A
+                A User dash board for a loan website created using Angular. A
                 user can login, upload documents and apply for a loan, check
-                loan balance, track trasctions and make loan payments.
+                loan balance, track transactions and make loan payments.
               </p>
               <div className="card-links d-flex flex-row justify-content-between">
                 <a

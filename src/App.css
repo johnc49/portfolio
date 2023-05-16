@@ -23,6 +23,7 @@
   margin-top: 15px;
   margin-right: 50px;
   text-decoration: none;
+  cursor: pointer;
 }
 .nav-li:active {
   color: #095bff;
@@ -205,6 +206,12 @@
 .footer h5 span {
   font-weight: 400;
   font-size: 17px;
+}
+.r-scroll-up-button {
+  position: fixed; /* Set the position to fixed */
+  bottom: 20px; /* Adjust the distance from the bottom */
+  right: 20px; /* Adjust the distance from the right */
+  z-index: 9999; /* Set a high z-index to ensure it appears on top of other elements */
 }
 @media (max-width: 768px) {
   .bg {

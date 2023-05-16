@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { Link as Scroll } from "react-scroll";
 import logo from "../assets/logo5.png";
 
 import Offcanvas from "react-bootstrap/Offcanvas";
@@ -37,23 +38,23 @@ const Navs = () => {
             <AiOutlineHome className="me-1 mb-1" style={{ color: "095BFF" }} />
             Home
           </Link>
-          <Link to="/about" className="nav-li">
+          <Scroll to="about" smooth={true} duration={100} className="nav-li">
             {" "}
             <FaRegUser className="me-1 mb-1" style={{ color: "095BFF" }} />
             About me
-          </Link>
-          <Link to="/projects" className="nav-li">
+          </Scroll>
+          <Scroll to="project" smooth={true} duration={100} className="nav-li">
             {" "}
             <BsBriefcase className="me-1 mb-1" style={{ color: "095BFF" }} />
             Projects
-          </Link>
-          <Link to="/contact" className="nav-li">
+          </Scroll>
+          <Scroll to="contact" smooth={true} duration={100} className="nav-li">
             <MdOutlineContactPhone
               className="me-1 mb-1"
               style={{ color: "095BFF" }}
             />
             Contact me
-          </Link>
+          </Scroll>
           <a
             href="./images/JCV.pdf"
             style={{
@@ -137,7 +138,7 @@ const Navs = () => {
                   width: "150px",
                 }}
                 className="dw"
-                download="John Chisowa CV"
+                download="John Chisowa Resume"
               >
                 {" "}
                 <BsCardChecklist className="me-1" style={{ color: "white" }} />

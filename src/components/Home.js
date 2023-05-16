@@ -1,9 +1,10 @@
 import React from "react";
-
+import ScrollUpButton from "react-scroll-up-button";
 import dp from "../assets/dp2.svg";
 import bg7 from "../assets/bg7.png";
 import About from "./About";
 import WhatsappIcon from "./WhatsappIcon";
+
 import Projects from "./Projects";
 import Contact from "./Contact";
 import {
@@ -15,8 +16,9 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { BsBriefcase } from "react-icons/bs";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Footer from "./Footer";
+import { Link, Element } from "react-scroll";
 
 const Home = () => {
   return (
@@ -40,14 +42,24 @@ const Home = () => {
       </div>
       <div className=" position-absolute d-flex names2">
         <h4 className="me-3">
-          <Link to="/about">
+          <Link
+            to="about"
+            smooth={true}
+            duration={100}
+            style={{ cursor: "pointer" }}
+          >
             {" "}
             About me
             <FaRegUser className="ms-2 names-icon" />
           </Link>
         </h4>
         <h4>
-          <Link to="/projects">
+          <Link
+            to="project"
+            smooth={true}
+            duration={100}
+            style={{ cursor: "pointer" }}
+          >
             {" "}
             Projects
             <BsBriefcase className="ms-2 names-icon" />
@@ -96,15 +108,26 @@ const Home = () => {
           <FaLinkedin className=" pointer" />
         </a>
       </div>
+
       <WhatsappIcon />
       <hr></hr>
-      <About />
+      <Element name="about">
+        <About />
+      </Element>
       <hr />
-      <Projects />
+      <Element name="project">
+        <Projects />
+      </Element>
       <hr></hr>
-      <Contact />
+      <Element name="contact">
+        <Contact />
+      </Element>
       <hr></hr>
       <Footer />
+      <ScrollUpButton
+        AnimationDuration={50}
+        style={{ bottom: "150px", right: "40px" }}
+      />
     </div>
   );
 };
